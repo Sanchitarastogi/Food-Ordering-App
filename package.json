@@ -4,8 +4,6 @@
   "description": "Learning React while implementing Food Ordering App",
   "main": "App.js",
   "dependencies": {
-    "js-tokens": "^4.0.0",
-    "loose-envify": "^1.4.0",
     "react": "^18.2.0",
     "reactdom": "^2.0.0"
   },
