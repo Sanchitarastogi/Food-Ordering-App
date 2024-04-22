@@ -2,13 +2,17 @@
   "name": "food-ordering-app",
   "version": "1.0.0",
   "description": "Learning React while implementing Food Ordering App",
-  "main": "App.js",
   "dependencies": {
     "react": "^18.2.0",
-    "reactdom": "^2.0.0"
+    "react-dom": "^18.2.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
@@ -20,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/Sanchitarastogi/Food-Ordering-App/issues"
   },
-  "homepage": "https://github.com/Sanchitarastogi/Food-Ordering-App#readme"
+  "homepage": "https://github.com/Sanchitarastogi/Food-Ordering-App#readme",
+  "browserslist": [
+    "last 2 versions"
+  ]
 }
